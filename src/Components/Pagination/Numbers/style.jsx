@@ -9,10 +9,6 @@ export const Container = styled.div`
     justify-content: center;
     margin: 40px 0;
 
-    #pagination{
-        color: yellow;
-    }
-
     .pagi-button{
         width: 40px;
         height: 40px;
@@ -27,6 +23,12 @@ export const Container = styled.div`
         line-height: 19px;
         color: #667085;
         border-radius: 50%;
+        @media (max-width:425px) {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+            font-size: 13px;
+        }
     }
 
     .ext-button{
@@ -51,6 +53,13 @@ export const Container = styled.div`
         &:hover{
             color: white;
             background-color: #FEB918;
+        }
+
+        @media (max-width:425px) {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+            font-size: 13px;
         }
     }
 `

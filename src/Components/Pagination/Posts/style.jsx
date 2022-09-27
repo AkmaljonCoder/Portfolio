@@ -107,6 +107,7 @@ export const Card = styled.div`
         font-size: 12px;
         line-height: 20px;
         color: #667085;
+        margin-right: 20px;
         margin-left: 20px;
         margin-bottom: 13px;
     }
@@ -130,7 +131,17 @@ export const Card = styled.div`
         #buttons{
             display: flex;
             margin-right: 20px;
+
+            .icons{
+                width: 16px !important;
+                height: 16px !important;
+                object-fit: contain !important;
+            }
         }
+    }
+
+    @media (max-width:425px) {
+        width: 80%;
     }
 `
 

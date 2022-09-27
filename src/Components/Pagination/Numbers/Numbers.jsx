@@ -19,7 +19,7 @@ const Pagination = ({postPerPage,totalPosts,paginate}) => {
         </button>
         {/* <Paginationn id='pagination' variant="outlined" count={pageNumbers.length} onChange={(e)=>paginate(e.target.textContent)} /> */}
         {pageNumbers.map(number => (
-            <button className='pagi-button' style={{backgroundColor:numberr==number? '#FEB918' : 'rgb(0,0,0,0)',color:numberr==number? 'white' : '#667085',transition:'all ease 0.6s'}} key={number} onClick={() =>{paginate(number);setNumber(number);console.log(number)}}>
+            <button className='pagi-button' style={{backgroundColor:numberr==number? '#FEB918' : 'rgb(0,0,0,0)',color:numberr==number? 'white' : '#667085',transition:'all ease 0.6s'}} key={number} onClick={() =>{paginate(number);setNumber(number)}}>
                 {number}
             </button>
         ))}

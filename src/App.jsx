@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Entery from './Components/Entery/Entery'
 import About from './Components/About/About'
 import Pagination from './Components/Pagination/Main'
+import Blog from './Components/Blog/Blog'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Entery/>
       <About/>
       <Pagination/>
+      <Blog/>
     </>
   )
 }

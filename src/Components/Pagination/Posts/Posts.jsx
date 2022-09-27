@@ -30,10 +30,10 @@ const Posts = ({posts}) => {
                 <h3>${item.price}</h3>
                 <div id='buttons'>
                   <Download>
-                    <AddShoppingCartIcon style={{color:'white'}}/>
+                    <AddShoppingCartIcon className='icons' style={{color:'white'}}/>
                   </Download>
                   <Share>
-                    <ShareIcon style={{color:'white'}}/>
+                    <ShareIcon className='icons' style={{color:'white'}}/>
                   </Share>
                 </div>
               </div>
