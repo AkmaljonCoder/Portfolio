@@ -50,11 +50,6 @@ export const Container = styled.div`
         border-radius: 50%;
         transition: all ease 0.6s;
 
-        &:hover{
-            color: white;
-            background-color: #FEB918;
-        }
-
         @media (max-width:425px) {
             width: 30px;
             height: 30px;
