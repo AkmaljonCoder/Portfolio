@@ -8,6 +8,7 @@ import About from './Components/About/About'
 import Pagination from './Components/Pagination/Main'
 import Blog from './Components/Blog/Blog'
 import OurApps from './Components/Apps/Apps'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Pagination/>
       <Blog/>
       <OurApps/>
+      <Footer/>
     </>
   )
 }
